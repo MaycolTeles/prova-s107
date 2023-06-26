@@ -1,0 +1,1 @@
+echo "Mandando e-mail com o mail do linux" | mail -s "subject: Pipeline Rodando!!" ${EMAIL}
