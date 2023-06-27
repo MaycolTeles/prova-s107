@@ -5,8 +5,8 @@ Module containing the "WebPresenter" Class.
 from typing import Any, Dict
 from dataclasses import asdict
 
-from domain.models.response.read_network_traffic_data_response_model import ReadNetworkTrafficDataResponseModel
-from domain.models.response.read_network_traffic_average_speed_response_model import ReadNetworkTrafficAverageSpeedResponseModel
+from src.domain.models.response.read_network_traffic_data_response_model import ReadNetworkTrafficDataResponseModel
+from src.domain.models.response.read_network_traffic_average_speed_response_model import ReadNetworkTrafficAverageSpeedResponseModel
 
 
 class WebPresenter:

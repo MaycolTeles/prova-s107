@@ -19,9 +19,10 @@ clean-pyc:
 
 ## remove test and coverage artifacts
 clean-test:
-	@rm -fr .tox/
 	@rm -f .coverage
+	@rm -fr .tox/
 	@rm -fr htmlcov/
+	@find . -name '.pytest_cache' -exec rm -fr {} +
 
 # format the code using black
 format:
@@ -48,4 +49,4 @@ deploy: tests format lint
 # run the code
 run:
 	@echo RUNNING
-	@cd app/src && python -m main
+	@cd app && python -m main

@@ -2,9 +2,9 @@
 Module containing the "DesktopController" Class.
 """
 
-from application.adapters.presenters.desktop import DesktopPresenter
-from domain.use_cases.network_traffic.read_network_traffic_data import ReadNetworkTrafficData
-from domain.use_cases.network_traffic.read_network_traffic_average_speed import ReadNetworkTrafficAverageSpeed
+from src.application.adapters.presenters.desktop import DesktopPresenter
+from src.domain.use_cases.network_traffic.read_network_traffic_data import ReadNetworkTrafficData
+from src.domain.use_cases.network_traffic.read_network_traffic_average_speed import ReadNetworkTrafficAverageSpeed
 
 
 class DesktopController:

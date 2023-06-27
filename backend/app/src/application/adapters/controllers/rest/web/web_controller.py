@@ -2,9 +2,9 @@
 Module containing the "WebController" Class.
 """
 
-from application.adapters.presenters.rest.web import WebPresenter
-from domain.use_cases.network_traffic.read_network_traffic_data import ReadNetworkTrafficData
-from domain.use_cases.network_traffic.read_network_traffic_average_speed import ReadNetworkTrafficAverageSpeed
+from src.application.adapters.presenters.rest.web import WebPresenter
+from src.domain.use_cases.network_traffic.read_network_traffic_data import ReadNetworkTrafficData
+from src.domain.use_cases.network_traffic.read_network_traffic_average_speed import ReadNetworkTrafficAverageSpeed
 
 
 class WebController:

@@ -21,12 +21,12 @@ class FlaskUI(UI):
         """
         self._flask = Flask(__name__)
 
-    def execute(self) -> None:
-        """
-        """
         self._configure()
         self._create_routes()
 
+    def execute(self) -> None:
+        """
+        """
         self._flask.run(host='0.0.0.0', port=5000)
 
     def _configure(self) -> None:
@@ -42,6 +42,6 @@ class FlaskUI(UI):
     def _create_routes(self) -> None:
         """
         """
-        self._flask.add_url_rule('/api/', 'index', endpoints.index)
+        self._flask.add_url_rule('/api', 'index', endpoints.index)
         self._flask.add_url_rule('/api/network-traffic-data', 'network-traffic-data', endpoints.network_traffic_data)
         self._flask.add_url_rule('/api/network-traffic-average-speed', 'network-traffic-average-speed', endpoints.network_traffic_average_speed)

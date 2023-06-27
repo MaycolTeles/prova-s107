@@ -5,7 +5,7 @@ TODO IMPLEMENT
 from typing import Dict, Union
 from datetime import datetime
 
-from domain.dtos.network_traffic_average_speed import NetworkTrafficAverageSpeedDTO
+from src.domain.dtos.network_traffic_average_speed import NetworkTrafficAverageSpeedDTO
 
 class NetworkTrafficAverageSpeedDTOBuilder:
     """

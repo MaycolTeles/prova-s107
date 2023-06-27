@@ -12,9 +12,9 @@ import threading
 import time
 
 from .constants import SERVER_ADDRESS, DELAY_TO_GET_DATA_PACKAGE, DELAY_TO_GET_MESSAGE
-from domain.dtos.builders.network_traffic_dto_builder import NetworkTrafficDTOBuilder
-from domain.dtos.network_traffic import NetworkTrafficDTO
-from domain.use_cases.network_traffic.interfaces import NetworkTrafficDataProvider
+from src.domain.dtos.builders.network_traffic_dto_builder import NetworkTrafficDTOBuilder
+from src.domain.dtos.network_traffic import NetworkTrafficDTO
+from src.domain.use_cases.network_traffic.interfaces import NetworkTrafficDataProvider
 
 
 class SocketIO(NetworkTrafficDataProvider):

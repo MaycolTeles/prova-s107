@@ -4,9 +4,9 @@ Module containing the "NetworkTraffic" Class.
 
 from typing import List
 
-from dependencies import network_traffic_provider_factory
-from domain.dtos.network_traffic import NetworkTrafficDTO
-from domain.use_cases.network_traffic.interfaces import NetworkTrafficDataProvider
+from src.dependencies import network_traffic_provider_factory
+from src.domain.dtos.network_traffic import NetworkTrafficDTO
+from src.domain.use_cases.network_traffic.interfaces import NetworkTrafficDataProvider
 
 
 class NetworkTraffic:

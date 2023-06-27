@@ -2,7 +2,7 @@
 Module containing all the endpoints for the Flask application.
 """
 
-from application.adapters.controllers.rest.web import WebController
+from src.application.adapters.controllers.rest.web import WebController
 
 from flask import Response, jsonify
 

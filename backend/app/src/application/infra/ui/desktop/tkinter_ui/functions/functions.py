@@ -6,7 +6,7 @@ Class containing all the button functions for the Tkinter UI.
 
 from typing import Any, Dict, List
 
-from application.adapters.controllers.desktop import DesktopController
+from src.application.adapters.controllers.desktop import DesktopController
 
 
 _controller = DesktopController()

@@ -2,7 +2,7 @@
 Module containing the "main()" function.
 """
 
-from dependencies.dependencies import ui_factory, network_traffic_provider_factory
+from src.dependencies import ui_factory, network_traffic_provider_factory
 
 
 def main() -> None:
